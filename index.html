@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch button</title>
+    <script src="./app.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="dark-background ">
+        <div>
+          <img
+            src="./images/bulb-go-on-img (1).png"
+            class="bulb-image"
+            id="bulbImage"
+          />
+        </div>
+        <div>
+          <img
+            src="./images/cat-img.png"
+            class="cat-image"
+            id="catImage"
+          />
+        </div>
+        <div class=" bottom-container">
+          <div class="switch-board">
+            <h1 class="switch-status" id="switchStatus">Switched On</h1>
+            <button class="off-switch" id="offSwitch" onclick="switchOff()">
+              OFF
+            </button>
+            <button class="on-switch" id="onSwitch" onclick="switchOn() ">
+              ON
+            </button>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
